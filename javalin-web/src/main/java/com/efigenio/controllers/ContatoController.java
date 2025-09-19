@@ -22,9 +22,14 @@ public class ContatoController {
         System.out.println("Telefone: " + telefone);
         System.out.println("Email: " + email);
 
+        
+
         Contato contato = new Contato(nome, telefone, email);
         Agenda.adicionarContato(contato);
 
         ctx.render("index.ftl", Map.of("contato", Agenda.listarContatos()));
+        
     };
+
+
 }

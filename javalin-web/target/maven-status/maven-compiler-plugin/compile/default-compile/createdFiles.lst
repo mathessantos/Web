@@ -1,5 +1,7 @@
-com/efigenio/Main.class
-com/efigenio/models/Agenda.class
-com/efigenio/models/Contato.class
-com/efigenio/controllers/IndexController.class
-com/efigenio/controllers/CadastroController.class
+com\efigenio\controllers\ContatoController.class
+com\efigenio\routes\Rotas.class
+com\efigenio\models\Agenda.class
+com\efigenio\config\AppConfig.class
+com\efigenio\models\Contato.class
+com\efigenio\Main.class
+com\efigenio\controllers\IndexController.class
