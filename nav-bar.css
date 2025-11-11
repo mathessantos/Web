@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+  background-color: #F2F4F5;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  margin: 0; /* zera margens padrão */
+  padding: 0 40px; /* cria a "margem" interna da página */
+  overflow: hidden;
+}
+
+li, a, button {
+  font-size: 14px;
+  color: #0F0061;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.nav-left, .nav-center {
+  list-style: none;
+}
+
+.nav-center li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+button {
+  padding: 10px 32px;
+  border: none;
+  cursor:pointer;
+  border-radius: 100px;
+}
+
+#login-btn {
+  border: 1px solid #1F0061;
+  background-color:white;
+}
+
+#signup-btn {
+  border: 1px solid #0A0065;
+  background-color: #0A0065;
+  color: white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* ocupa toda a largura da tela */
+  background-color: white;
+  border-bottom: 1px solid #CECECE;
+}
